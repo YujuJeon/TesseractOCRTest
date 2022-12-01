@@ -5,7 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleTesseract.unity
     guid: c78fc2a4c5a6349b7a60508dc3849924
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/MedicalSceneTest.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 82e2eab1d658b1f41865262c78978b24,
+      type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 79854bebd3f9f9c44800e6c5ce5bc31f,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 22dfe0437401aaf49a31d456173248bc,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 2bf6484be4ca98d48a6e9567dbdd325f,
+      type: 2}

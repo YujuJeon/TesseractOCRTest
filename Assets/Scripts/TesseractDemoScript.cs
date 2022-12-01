@@ -24,7 +24,7 @@ public class TesseractDemoScript : MonoBehaviour
     {
         _texture = outputTexture;
         ClearTextDisplay();
-        AddToTextDisplay(_tesseractDriver.CheckTessVersion());
+        //AddToTextDisplay(_tesseractDriver.CheckTessVersion());
         _tesseractDriver.Setup(OnSetupCompleteRecognize);
     }
 
