@@ -1,0 +1,153 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using VoxelBusters.CoreLibrary;
+using VoxelBusters.EasyMLKit;
+using UnityEngine.UI;
+
+public class WebCamTextureCaptureDemo : MonoBehaviour
+{
+    [SerializeField]
+    private RawImage m_rawImage;
+
+    [SerializeField]
+    private AspectRatioFitter m_aspectRatioFitter;
+
+    [SerializeField]
+    private Text m_label;
+
+    private Texture2D m_texture2d;
+    private WebCamTexture m_webCamTexture;
+    
+
+    private void Awake()
+    {
+        m_webCamTexture = new WebCamTexture();
+        m_webCamTexture.Play();
+        m_rawImage.texture = m_webCamTexture;
+
+        m_rawImage.transform.localScale = new Vector3(1f, m_webCamTexture.videoVerticallyMirrored ? -1f : 1f, 1f);
+        m_rawImage.transform.localEulerAngles = new Vector3(0, 0, -m_webCamTexture.videoRotationAngle);
+
+    }
+
+    public void OnScanPressed()
+    {
+        if (m_texture2d == null)
+        {
+            m_texture2d = new Texture2D(m_webCamTexture.width, m_webCamTexture.height, TextureFormat.RGBA32, false);
+            m_aspectRatioFitter.aspectRatio = m_webCamTexture.width / m_webCamTexture.height;
+        }
+
+        m_texture2d.SetPixels(m_webCamTexture.GetPixels());
+        m_texture2d.Apply();
+
+        IInputSource inputSource = new ImageInputSource(m_texture2d);
+        TextRecognizerOptions options = CreateTextRecognizerOptions();
+        TextRecognizer scanner = new TextRecognizer(inputSource);
+        Debug.Log("Starting prepare...");
+        scanner.Prepare(options, (TextRecognizer scanner, Error error) =>
+        {
+            Debug.Log("Prepare complete..." + error);
+            if (error == null)
+            {
+                Debug.Log("Prepare completed successfully!");
+                scanner.Process((TextRecognizer scanner, TextRecognizerResult result) =>
+                {
+                    if (!result.HasError())
+                    {
+                        TextGroup textGroup = result.TextGroup;
+                        if(textGroup != null)
+                        {
+                            string message = string.Format("Text : {0}", result.TextGroup.Text);
+                            m_label.text = message;
+                            Debug.Log(message);
+                        }
+                        else
+                        {
+                            string message = "No text found";
+                            m_label.text = message;
+                            Debug.Log(message);
+                        }                        
+                    }
+                    else
+                    {
+                        m_label.text = "Text Recognizer failed processing : " + result.Error.Description;
+                    }
+
+                    scanner.Close(null);
+                });
+            }
+            else
+            {
+                Debug.Log("Failed preparing Barcode scanner : " + error.Description);
+            }
+        });
+    }
+
+    
+
+    public void OnScanPressedV2()
+    {
+        if (m_texture2d == null)
+        {
+            m_texture2d = new Texture2D(m_webCamTexture.width, m_webCamTexture.height, TextureFormat.RGBA32, false);
+        }
+
+        m_texture2d.SetPixels(m_texture2d.GetPixels());
+        m_texture2d.Apply();
+
+        IInputSource inputSource = new ImageInputSource(m_texture2d);
+        TextRecognizerOptions options = CreateTextRecognizerOptions();
+        TextRecognizer scanner = new TextRecognizer(inputSource);
+        Debug.Log("Starting prepare...");
+        scanner.Prepare(options, OnPrepareComplete);
+    }
+
+    private void OnPrepareComplete(TextRecognizer scanner, Error error)
+    {
+        Debug.Log("Prepare complete..." + error);
+        if (error == null)
+        {
+            Debug.Log("Prepare completed successfully!");
+            scanner.Process(OnProcessUpdate);
+        }
+        else
+        {
+            Debug.Log("Failed preparing Barcode scanner : " + error.Description);
+        }
+    }
+
+    private void OnProcessUpdate(TextRecognizer scanner, TextRecognizerResult result)
+    {
+        if (!result.HasError())
+        {
+            TextGroup textGroup = result.TextGroup;
+            if (textGroup != null)
+            {
+                string message = string.Format("Text : {0}", result.TextGroup.Text);
+                m_label.text = message;
+                Debug.Log(message);
+            }
+            else
+            {
+                string message = "No text found";
+                m_label.text = message;
+                Debug.Log(message);
+            }
+        }
+        else
+        {
+            m_label.text = "Text Recognizer failed processing : " + result.Error.Description;
+        }
+
+        scanner.Close(null);
+    }
+
+    private TextRecognizerOptions CreateTextRecognizerOptions()
+    {
+        TextRecognizerOptions.Builder builder = new TextRecognizerOptions.Builder();
+        builder.SetInputLanguage(TextRecognizerInputLanguage.Latin);
+        return builder.Build();
+    }
+}

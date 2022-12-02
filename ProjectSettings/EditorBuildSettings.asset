@@ -8,9 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleTesseract.unity
     guid: c78fc2a4c5a6349b7a60508dc3849924
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MedicalSceneTest.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Plugins/VoxelBusters/EasyMLKit/Demo/Scenes/TextRecognizerARDemo.unity
+    guid: 8b62ee21df49f49599cdbd93b5698a7d
+  - enabled: 1
+    path: Assets/Scenes/TextRecognizerTesting.unity
+    guid: f91d5d6108c89e442b593f76303b4a78
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 82e2eab1d658b1f41865262c78978b24,
       type: 2}
