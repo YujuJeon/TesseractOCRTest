@@ -15,6 +15,8 @@ namespace VoxelBusters.CoreLibrary.NativePlugins.DemoKit
         [SerializeField]
         private     ScrollRect      m_textScroller = null;
 
+		[SerializeField] public List<string> strArr = new List<string>();
+
 		#endregion
 
 		#region Unity methods
@@ -33,10 +35,12 @@ namespace VoxelBusters.CoreLibrary.NativePlugins.DemoKit
 			if (append)
 			{
                 m_text.text    = m_text.text + "\n" + message;
+				strArr.Add(message);
 			}
 			else
 			{
 				m_text.text    = message;
+				strArr.Add(message);
 			}
 
             StartCoroutine(MoveScrollerToBottom());

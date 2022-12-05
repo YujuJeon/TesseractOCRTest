@@ -15,6 +15,7 @@ namespace VoxelBusters.EasyMLKit.Demo
     {
         #region Fields
         private bool m_autoClose;
+        
         #endregion
 
 
@@ -135,7 +136,7 @@ namespace VoxelBusters.EasyMLKit.Demo
         {
             if (!result.HasError())
             {
-                Log(string.Format("Text : {0}", result.TextGroup.Text), false);
+                Log(string.Format("{0}", result.TextGroup.Text), false);
                 TextGroup textGroup = result.TextGroup;
 
                 if (textGroup != null)
