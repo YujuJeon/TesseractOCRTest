@@ -4,8 +4,10 @@ using UnityEngine.UI;
 using VoxelBusters.CoreLibrary;
 using VoxelBusters.CoreLibrary.NativePlugins.DemoKit;
 using VoxelBusters.EasyMLKit.Internal;
+using TMPro;
 #if EASY_ML_KIT_SUPPORT_AR_FOUNDATION
 using UnityEngine.XR.ARFoundation;
+using VoxelBusters.EasyMLKit.Demo;
 #endif
 
 // internal namespace
@@ -15,6 +17,8 @@ namespace VoxelBusters.EasyMLKit.Demo
     {
         #region Fields
         private bool m_autoClose;
+        [SerializeField] private TextMeshProUGUI txtDisplay;
+        [SerializeField] private ConsoleRect consoleRect;
         
         #endregion
 
@@ -38,12 +42,11 @@ namespace VoxelBusters.EasyMLKit.Demo
                 case TextRecognizerDemoActionType.ScanTextFromARCamera:
                     m_autoClose = false;
                     ScanTextFromARCamera();
+                    break;                                   
+                case TextRecognizerDemoActionType.Close:
+                    m_autoClose = true;
+                    OnCloseApplication();
                     break;
-
-                case TextRecognizerDemoActionType.ResourcePage:
-                    ProductResources.OpenResourcePage(NativeFeatureType.kTextRecognizer);
-                    break;
-
                 default:
                     break;
             }
@@ -67,13 +70,27 @@ namespace VoxelBusters.EasyMLKit.Demo
             Scan(inputSource, options);
         }
 
-        private void ScanTextFromARCamera()
+        public void ScanTextFromARCamera()
         {
 #if EASY_ML_KIT_SUPPORT_AR_FOUNDATION
             IInputSource inputSource = CreateARCameraInputSource();//Now we use live camera as input source
             TextRecognizerOptions options = CreateTextRecognizerOptions();
             Scan(inputSource, options);
 #endif
+        }
+
+        //TODO:// after click close button text recognition box need to be disappear
+        public void OnCloseApplication()
+        {
+            consoleRect.strArr.Clear();
+            txtDisplay.text = "";
+            //ScanTextFromARCamera();
+            //m_autoClose = true;
+            IInputSource inputSource = CreateARCameraInputSource();//Now we use live camera as input source
+            TextRecognizer scanner = new TextRecognizer(inputSource);
+            scanner.Close(null);
+            //ObjectOverlayController.Instance.ClearAll();
+            //Scan(null, null);
         }
 
         #endregion
@@ -136,7 +153,7 @@ namespace VoxelBusters.EasyMLKit.Demo
         {
             if (!result.HasError())
             {
-                Log(string.Format("{0}", result.TextGroup.Text), false);
+                Log(string.Format("{0}", result.TextGroup.Text), true);
                 TextGroup textGroup = result.TextGroup;
 
                 if (textGroup != null)
@@ -155,12 +172,22 @@ namespace VoxelBusters.EasyMLKit.Demo
                         scanner.Close(null);
                     }
                 }
+
+                //display array list
+                for (int i = 0; i < consoleRect.strArr.Count; i++)
+                {
+                    txtDisplay.text = consoleRect.strArr[i].ToString();
+                }
+
+
             }
             else
             {
                 Log("Text Recognizer failed processing : " + result.Error.Description, false);
             }
         }
+
+       
 
         #endregion
     }

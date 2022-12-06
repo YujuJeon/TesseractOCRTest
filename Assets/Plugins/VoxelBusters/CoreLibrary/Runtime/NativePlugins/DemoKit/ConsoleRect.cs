@@ -7,10 +7,10 @@ namespace VoxelBusters.CoreLibrary.NativePlugins.DemoKit
 {
 	public class ConsoleRect : MonoBehaviour 
 	{
-		#region Properties
+        #region Properties
 
-		[SerializeField]
-		private 	Text 	        m_text = null;
+        //[SerializeField]
+        //private Text m_text = null;
 
         [SerializeField]
         private     ScrollRect      m_textScroller = null;
@@ -34,14 +34,14 @@ namespace VoxelBusters.CoreLibrary.NativePlugins.DemoKit
 		{
 			if (append)
 			{
-                m_text.text    = m_text.text + "\n" + message;
+               // m_text.text    = m_text.text + "\n" + message;
 				strArr.Add(message);
 			}
-			else
-			{
-				m_text.text    = message;
-				strArr.Add(message);
-			}
+            //else
+            //{
+            //  //  m_text.text = message;
+            //    strArr.Add(message);
+            //}
 
             StartCoroutine(MoveScrollerToBottom());
 		}
@@ -60,10 +60,14 @@ namespace VoxelBusters.CoreLibrary.NativePlugins.DemoKit
 
 		private void Reset()
 		{
-			if (m_text)
-			{
-				m_text.text	= "Console";
-			}
+            //if (m_text)
+            //{
+            //    m_text.text = "Console";
+            //}
+    //        if (strArr != null)
+    //        {
+				//strArr = null;
+    //        }
 		}
 
 		#endregion
