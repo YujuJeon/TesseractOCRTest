@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,16 +12,18 @@ namespace VoxelBusters.EasyMLKit.Demo
         private Texture2D texture;
 
         private RectTransform m_rectTransform;
+        //private TextRecognizerDemo
 
         [SerializeField]
         private Text m_label;
-
+        private TextMeshProUGUI selectedText;
         Rect m_transformedScreenRect;
         
 
         private void Awake()
         {
             m_rectTransform = transform as RectTransform;
+            selectedText = GameObject.Find("clickedText").GetComponent<TextMeshProUGUI>();
         }
 
         public void SetRect(RectTransform canvasRect, Rect screenRect)
@@ -39,6 +42,16 @@ namespace VoxelBusters.EasyMLKit.Demo
         public void SetLabel(string labelText)
         {
             m_label.text = labelText;
+        }
+
+        public void OnClickBoundingBox()
+        {
+            selectedText.text = m_label.text;
+        }
+
+        public void ClearOverlayText()
+        {
+            selectedText.text = "";
         }
     }
 }

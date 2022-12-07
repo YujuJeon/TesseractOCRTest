@@ -36,6 +36,7 @@ namespace VoxelBusters.EasyMLKit.Demo
                     break;
                 case TextRecognizerDemoActionType.Scan:
                     m_autoClose = false;
+                 
                     ScanTextFromARCamera();
                     break;                                   
                 case TextRecognizerDemoActionType.Close:
@@ -135,6 +136,11 @@ namespace VoxelBusters.EasyMLKit.Demo
             }
         }
 
+        public void OnClickBoundingBox()
+        {
+
+        }
+
         private void OnProcessUpdate(TextRecognizer scanner, TextRecognizerResult result)
         {
             if (!result.HasError())
@@ -149,12 +155,7 @@ namespace VoxelBusters.EasyMLKit.Demo
                     {
                         foreach (TextGroup.Block each in textGroup.Blocks)
                         {
-                            ObjectOverlayController.Instance.ShowOverlay(each.BoundingBox, string.Format("{0}", each.Text));
-                            
-                            //TODO://
-                            //check what is overlay rect gameobject and add onclick listener to grab selected Text
-
-                            //clickedText.text = ObjectOverlayController.Instance.OverlayTextClicked(each.Text);
+                            ObjectOverlayController.Instance.ShowOverlay(each.BoundingBox, string.Format("{0}", each.Text));                           
                         }
                     }
 
@@ -165,10 +166,10 @@ namespace VoxelBusters.EasyMLKit.Demo
                 }
 
                 //display array list
-                for (int i = 0; i < consoleRect.strArr.Count; i++)
-                {
-                    txtDisplay.text = consoleRect.strArr[i].ToString();
-                }
+                //for (int i = 0; i < consoleRect.strArr.Count; i++)
+                //{
+                //    txtDisplay.text = consoleRect.strArr[i].ToString();
+                //}
 
 
             }

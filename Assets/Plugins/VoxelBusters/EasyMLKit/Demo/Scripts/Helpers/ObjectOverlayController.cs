@@ -23,6 +23,7 @@ namespace VoxelBusters.EasyMLKit.Demo
             {
                 each.gameObject.SetActive(false);
                 m_pool.Add(each);
+                each.ClearOverlayText();
             }
 
             m_currentOverlays.Clear();
@@ -32,19 +33,12 @@ namespace VoxelBusters.EasyMLKit.Demo
         {
             ObjectOverlay overlay = GetFreeOverlay();
             overlay.SetRect(m_cachedCanvas.transform as RectTransform, rectInScreenSpace);
-            overlay.SetLabel(label);
-            //add clickable button component to overlay boxes, user can click and get the specific string
-            
-
-           // overlay.transform.GetComponent<Button>().onClick.AddListener(()=> OverlayTextClicked(label));
-                        
-
+            overlay.SetLabel(label);          
         }
 
-        public string OverlayTextClicked(string txtClicked)
+        public void OverlayTextClicked(TextGroup.Block boundingBox)
         {
-            string a = txtClicked;
-            return a;
+            
         }
 
         public ObjectOverlay GetFreeOverlay()
