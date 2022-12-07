@@ -8,18 +8,11 @@ namespace VoxelBusters.EasyMLKit.Demo
 {
     public enum TextRecognizerDemoActionType
     {
-        ScanTextFromARCamera,
-        ScanTextFromImage,
-        ScanTextFromLiveCamera,
-        ResourcePage,
+        Scan,
+        Capture,
         Close
     }
 
     public class TextRecognizerDemoAction : DemoActionBehaviour<TextRecognizerDemoActionType>
     { }
-
-    //public class TextRecognizerDemoAction
-    //{
- //   public static TextRecognizerDemoActionType DemoActionType;
-    //}
 }

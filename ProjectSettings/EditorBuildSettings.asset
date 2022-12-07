@@ -18,6 +18,10 @@ EditorBuildSettings:
     path: Assets/Scenes/TextRecognizerTesting.unity
     guid: f91d5d6108c89e442b593f76303b4a78
   m_configObjects:
+    AR Foundation RemoteARFoundationRemoteLoaderSettings: {fileID: 11400000, guid: e0f2454666630fc4fb29e97f4c2a6856,
+      type: 2}
+    AR Foundation RemoteARFoundationRemoteSessionRecordsData: {fileID: 11400000, guid: a7653cdda02d92043abe00ac2a2db5cd,
+      type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 82e2eab1d658b1f41865262c78978b24,
       type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 79854bebd3f9f9c44800e6c5ce5bc31f,

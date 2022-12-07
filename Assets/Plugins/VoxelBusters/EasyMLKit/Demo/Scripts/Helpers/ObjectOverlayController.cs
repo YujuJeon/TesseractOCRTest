@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using VoxelBusters.CoreLibrary;
 
 namespace VoxelBusters.EasyMLKit.Demo
@@ -32,6 +33,18 @@ namespace VoxelBusters.EasyMLKit.Demo
             ObjectOverlay overlay = GetFreeOverlay();
             overlay.SetRect(m_cachedCanvas.transform as RectTransform, rectInScreenSpace);
             overlay.SetLabel(label);
+            //add clickable button component to overlay boxes, user can click and get the specific string
+            
+
+           // overlay.transform.GetComponent<Button>().onClick.AddListener(()=> OverlayTextClicked(label));
+                        
+
+        }
+
+        public string OverlayTextClicked(string txtClicked)
+        {
+            string a = txtClicked;
+            return a;
         }
 
         public ObjectOverlay GetFreeOverlay()
@@ -41,6 +54,7 @@ namespace VoxelBusters.EasyMLKit.Demo
             {
                 //ObjectOverlay overlay;//Instantiate
                 overlay = (Instantiate(Resources.Load("EasyMLKitObjectOverlay"), m_cachedCanvas.transform) as GameObject).GetComponent<ObjectOverlay>();
+                overlay.gameObject.AddComponent(typeof(Button));
             }
             else
             {
