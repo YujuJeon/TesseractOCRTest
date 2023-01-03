@@ -14,9 +14,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Plugins/VoxelBusters/EasyMLKit/Demo/Scenes/TextRecognizerARDemo.unity
     guid: 8b62ee21df49f49599cdbd93b5698a7d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TextRecognizerTesting.unity
     guid: f91d5d6108c89e442b593f76303b4a78
+  - enabled: 1
+    path: Assets/Scenes/Test.unity
+    guid: 25507d35b76fe524cb71da483ca98094
   m_configObjects:
     AR Foundation RemoteARFoundationRemoteLoaderSettings: {fileID: 11400000, guid: e0f2454666630fc4fb29e97f4c2a6856,
       type: 2}

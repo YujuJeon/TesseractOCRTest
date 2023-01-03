@@ -359,7 +359,7 @@ Camera:
   near clip plane: 0.1
   far clip plane: 20
   field of view: 60
-  orthographic: 0
+  orthographic: 1
   orthographic size: 5
   m_Depth: 0
   m_CullingMask:
@@ -487,10 +487,60 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1770554825813420553, guid: 9dd3a67722cd7a744a2b0377d6cf0c99,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770554825813420553, guid: 9dd3a67722cd7a744a2b0377d6cf0c99,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770554825813420553, guid: 9dd3a67722cd7a744a2b0377d6cf0c99,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770554825813420553, guid: 9dd3a67722cd7a744a2b0377d6cf0c99,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770721638744706687, guid: 9dd3a67722cd7a744a2b0377d6cf0c99,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770721638744706687, guid: 9dd3a67722cd7a744a2b0377d6cf0c99,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770721638744706687, guid: 9dd3a67722cd7a744a2b0377d6cf0c99,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770721638744706687, guid: 9dd3a67722cd7a744a2b0377d6cf0c99,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770917453188696334, guid: 9dd3a67722cd7a744a2b0377d6cf0c99,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1604
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835219074950794035, guid: 9dd3a67722cd7a744a2b0377d6cf0c99,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1985138964303967944, guid: 9dd3a67722cd7a744a2b0377d6cf0c99,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -458
+      value: -1471
       objectReference: {fileID: 0}
     - target: {fileID: 1985138964303967945, guid: 9dd3a67722cd7a744a2b0377d6cf0c99,
         type: 3}
@@ -502,6 +552,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: TextRecognitionCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 1985138964589150834, guid: 9dd3a67722cd7a744a2b0377d6cf0c99,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985138964589150834, guid: 9dd3a67722cd7a744a2b0377d6cf0c99,
+        type: 3}
+      propertyPath: m_PlaneDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985138964589150835, guid: 9dd3a67722cd7a744a2b0377d6cf0c99,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985138964589150835, guid: 9dd3a67722cd7a744a2b0377d6cf0c99,
+        type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985138964589150835, guid: 9dd3a67722cd7a744a2b0377d6cf0c99,
+        type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985138964589150835, guid: 9dd3a67722cd7a744a2b0377d6cf0c99,
+        type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985138964589150836, guid: 9dd3a67722cd7a744a2b0377d6cf0c99,
+        type: 3}
+      propertyPath: arCamera
+      value: 
+      objectReference: {fileID: 1373410689}
     - target: {fileID: 1985138964589150837, guid: 9dd3a67722cd7a744a2b0377d6cf0c99,
         type: 3}
       propertyPath: m_Pivot.x

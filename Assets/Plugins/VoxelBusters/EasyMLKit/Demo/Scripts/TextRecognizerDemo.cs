@@ -20,6 +20,9 @@ namespace VoxelBusters.EasyMLKit.Demo
         [SerializeField] private TextMeshProUGUI txtDisplay;
         [SerializeField] private ConsoleRect consoleRect;
         [SerializeField] private TextMeshProUGUI clickedText;
+
+        private bool _isCamAvailable;
+        private WebCamTexture _cameraTexture;
         
         #endregion
 
@@ -70,17 +73,19 @@ namespace VoxelBusters.EasyMLKit.Demo
                 
         public void OnCloseApplication()
         {
+#if EASY_ML_KIT_SUPPORT_AR_FOUNDATION
             consoleRect.strArr.Clear();
             txtDisplay.text = "";
 
             IInputSource inputSource = CreateARCameraInputSource();
             TextRecognizerOptions options = CreateTextRecognizerOptions();
             StopScan(inputSource, options);
+#endif
         }
 
-        #endregion
+#endregion
 
-        #region Utility methods
+#region Utility methods
 
         private IInputSource CreateImageInputSource(Texture2D texture)
         {
@@ -186,6 +191,6 @@ namespace VoxelBusters.EasyMLKit.Demo
             scanner.Close(null);
         }
 
-        #endregion
+#endregion
     }
 }

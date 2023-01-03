@@ -19,6 +19,7 @@ namespace VoxelBusters.EasyMLKit.Demo
         [SerializeField] private GameObject btnScan;
         [SerializeField] private GameObject btnCapture;
         [SerializeField] private GameObject btnClose;
+        [SerializeField] private Camera arCamera;
 
         private void Awake()
         {
@@ -32,13 +33,18 @@ namespace VoxelBusters.EasyMLKit.Demo
             btnCapture.SetActive(true);
             txtDisplay.SetActive(true);
             btnClose.SetActive(true);
+
+            //adjust camera size
+            //arCamera.orthographicSize = Mathf.Max(Screen.width, Screen.height) / 2;
         }
 
         public void OnClickClose()
         {
             btnCapture.SetActive(false);
             txtDisplay.SetActive(false);
-            btnClose.SetActive(false);           
+            btnClose.SetActive(false);
+
+            //arCamera.orthographicSize = Mathf.Max(Screen.width, Screen.height);
         }
 
     }
