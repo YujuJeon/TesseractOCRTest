@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2c811347539dde143931c5a085e2f8b7
+  m_SerializeEntries:
+  - m_GUID: 6674168f3acb94320b4ac7a0890a229d
+    m_Address: Assets/Prefabs/walmart space.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eac9e823638932147bc35b18902effdc
+    m_Address: Assets/Textures
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7419ffc9856622d4ab892a3eeb490b75, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6ea2208af1e2a184aa9b6b65e327ae93, type: 2}
+    - {fileID: 11400000, guid: 7c860ef3143bace4c89c615f80fb0181, type: 2}

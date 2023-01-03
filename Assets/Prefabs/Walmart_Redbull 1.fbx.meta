@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: 6813a8900dba749ada64ed6c61dd8fda
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue
+    second: {fileID: 2100000, guid: 64600ab553f344510aebb3ae38c92c18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Coconut
+    second: {fileID: 2100000, guid: 5653d788f12f84980bf2434b1f68ecf9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Colors-Blue-3
+    second: {fileID: 2100000, guid: f59df4824ea9b42b49ecaaf689f66357, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Colors-Gray-1gradient
+    second: {fileID: 2100000, guid: 391574b757d9948f6a23f4f31fa1bc7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Colors-Green-5
+    second: {fileID: 2100000, guid: ebc1338670770406286ec49306ad3447, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Colors-Red-3
+    second: {fileID: 2100000, guid: 7f1cf93f48d9f45deb1b487a8dc80a49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GDM06
+    second: {fileID: 2100000, guid: 918fbf5bc01594961b2fd048a0bbbb09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GDM41-SL54
+    second: {fileID: 2100000, guid: cfa9a6004f385445ca967b688172ec21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GameCenter
+    second: {fileID: 2100000, guid: a0daf55ec37854d1bb78b8aac61deec7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GeorgeTownEndcap
+    second: {fileID: 2100000, guid: 6f8b7a1393b044f8a8b094cebd2b64c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 80732fd867abf4c3bb5079ac3dbd2b91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Green
+    second: {fileID: 2100000, guid: 4f1a9cefcbc514bd6a9998a1d0cf1047, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pack_Blue
+    second: {fileID: 2100000, guid: a689a07cfd7254b00a374ce91d20db92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pack_Coconut
+    second: {fileID: 2100000, guid: 62c66a698d2c84ce5a1d6aa837f17d70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pack_Green
+    second: {fileID: 2100000, guid: 6cbce5b4ccca1446fac4329ed67e01c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pack_Peach
+    second: {fileID: 2100000, guid: 554148c1b082d42698f011f9013fb88b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pack_Red
+    second: {fileID: 2100000, guid: 43d57171563134031b88314201c76871, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pack_Standard
+    second: {fileID: 2100000, guid: ba193042316854295b7c1286dcedf386, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pack_SugarFree
+    second: {fileID: 2100000, guid: 55eb89a742aac40219d9ed1576ab6363, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pack_Summer
+    second: {fileID: 2100000, guid: 9f911e35134bb4f9ebb4bf3b10f50b7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pack_Yellow
+    second: {fileID: 2100000, guid: 05400073b6bfc4b44b925eb01183ee7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Peach
+    second: {fileID: 2100000, guid: 0982e1b46465b4a0ea7c015587af91be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red
+    second: {fileID: 2100000, guid: 86d239ef48109478bb49630684baeee6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Redbull-Atlas
+    second: {fileID: 2100000, guid: 58795b6542e93400f83c454a0f103540, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SlimDisplay
+    second: {fileID: 2100000, guid: 7e24469eddcc94dc99504b82d8d811f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SlimMedium
+    second: {fileID: 2100000, guid: 05bbc07daeccb4d89b6f685fa68c21d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SlimMega
+    second: {fileID: 2100000, guid: da0c919af5b8443baaf7b6e02f3cf4fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard
+    second: {fileID: 2100000, guid: 2cb301b0afeb04218a7c6ca68770ab10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SugarFree
+    second: {fileID: 2100000, guid: 5f4a32ee559de49fdb88432744605808, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Summer
+    second: {fileID: 2100000, guid: 2b9766b8109b04180bcc5591d8f88f6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wm_Desk_BrightWood
+    second: {fileID: 2100000, guid: f5d782e0f48ce415a8c0d2d03b0adb09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yellow
+    second: {fileID: 2100000, guid: 012a6bf85d9b3427896b497146284af9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zero
+    second: {fileID: 2100000, guid: 95084b9595ab54ebc9e525ead3d4cdd2, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Blue_Base_color_sRGB
+    second: {fileID: 2800000, guid: 92460cb5d319c48f1a9f4c3448ce1b34, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Coconut_Base_color_sRGB
+    second: {fileID: 2800000, guid: 05a844012b9bd457480e590a2567fd61, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Desk_BrightWood_BaseColor
+    second: {fileID: 2800000, guid: 56f1c3bb362c442ceb0dda49994e4046, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Desk_BrightWood_Metallic
+    second: {fileID: 2800000, guid: 6648f4d090e9d4c5bbf8a3df8492b54a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Desk_BrightWood_Normal
+    second: {fileID: 2800000, guid: 66b67cabbc1ff4b78adba907e36f0d69, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Desk_BrightWood_Roughness
+    second: {fileID: 2800000, guid: 4d15921eafb0d47faa5d3b93c225dba8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GDM06_Base_color_sRGB
+    second: {fileID: 2800000, guid: 49e22e31387e64db6ad3b5ab07b3a71e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GDM06_Normal_OpenGL_Raw
+    second: {fileID: 2800000, guid: 482756a98189e498a827e4136281ce1b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GDM06_Opacity_Raw
+    second: {fileID: 2800000, guid: db8c20b821e7b4d1fbc89bb0dfdc6b0c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GDM41-SL54_Base_color_sRGB
+    second: {fileID: 2800000, guid: 8d832e2f511fb49919fe074168256469, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GDM41-SL54_Normal_OpenGL_Raw
+    second: {fileID: 2800000, guid: bcfdebcf1bb5240d59e492b752c4fcab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GDM41-SL54_Opacity_Raw
+    second: {fileID: 2800000, guid: 6cdb44d565b5c45188cb41e8b8b45659, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GameCenter_Base_color_sRGB
+    second: {fileID: 2800000, guid: 5e3df8fd7e16941af9ea0f03cdf840b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GameCenter_Normal_OpenGL_Raw
+    second: {fileID: 2800000, guid: 8f925e1be4a2e4b499828512805e4718, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GeorgeTownEndcap_Base_color_sRGB
+    second: {fileID: 2800000, guid: 26f5f0ce613654d11b3e3bd2390f70cf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GeorgeTownEndcap_Normal_OpenGL_Raw
+    second: {fileID: 2800000, guid: b24d9616e241345129c0a23ace2abdfe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GeorgeTownEndcap_Opacity_Raw
+    second: {fileID: 2800000, guid: a92e8f99d104e46659a7a7fd3e25b39b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Green_Base_color_sRGB
+    second: {fileID: 2800000, guid: 072d718c06e1b45c6980d8cc7626edd9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pack_Blue
+    second: {fileID: 2800000, guid: 423a3e6a515e244fab040b4d9cff0c4d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pack_Default
+    second: {fileID: 2800000, guid: 0c18ea54d26d24d128d11cd1e83dd4fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pack_Peach
+    second: {fileID: 2800000, guid: 19694ffa215b34c40b8af2e7b5851620, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pack_Red
+    second: {fileID: 2800000, guid: 46978698dc98949f68724787ea78444f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pack_SugarFree
+    second: {fileID: 2800000, guid: 33642f9d14f614593abe041903b7e69f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pack_Summer
+    second: {fileID: 2800000, guid: 6215075c3bb6940cda18600d688a6075, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pack_Yellow
+    second: {fileID: 2800000, guid: bbad960a7803849c68976adf2410c183, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Packs_Coco
+    second: {fileID: 2800000, guid: 70223e2743c9a42ebbc16eb4ac9cb402, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Packs_Green
+    second: {fileID: 2800000, guid: c6b156358a6ea41f58548bf4a1109b43, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Peach_Base_color_sRGB
+    second: {fileID: 2800000, guid: 1a91d20e67de54bcdbe0f433d702f846, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Red_Base_color_sRGB
+    second: {fileID: 2800000, guid: 93f7bf014f05e4e3288c47ed2cccd807, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Redbull-Atlas_Base_color_sRGB
+    second: {fileID: 2800000, guid: f02d7a2492cc9416d991e4a2b371f4f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Redbull-Atlas_Emissive_sRGB
+    second: {fileID: 2800000, guid: 89cbbaeaa866f4d198ba06b52222c72a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Redbull-Atlas_Metallic_Raw
+    second: {fileID: 2800000, guid: ad8ae6a09930f407b9fe89b7ac8a35f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Redbull-Atlas_Normal_OpenGL_Raw
+    second: {fileID: 2800000, guid: 585b3520fdfd44c06b9701743f92f165, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Redbull-Atlas_Opacity_Raw
+    second: {fileID: 2800000, guid: 871c1e20b5b7544588c402aa2044acf9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Redbull-Atlas_Roughness_Raw
+    second: {fileID: 2800000, guid: 4a2dee99805d241ad8e2742dcbdc2dc2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SlimDisplay_Base_color_sRGB
+    second: {fileID: 2800000, guid: 9a5ade6b3de8e427591e5820b7dfb59f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SlimDisplay_Normal_OpenGL_Raw
+    second: {fileID: 2800000, guid: 2cefc73bc275346e69882a95b0e1437e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SlimMedium_Base_color_sRGB
+    second: {fileID: 2800000, guid: d50383314a8cf4719b9b660b4b2fa7f2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SlimMedium_Normal_OpenGL_Raw
+    second: {fileID: 2800000, guid: 3854831621b41454d858537c9bc68902, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SlimMedium_Opacity_Raw
+    second: {fileID: 2800000, guid: 1d2f722c790de4c99820f5e4cfcfb2a0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SlimMega_Base_color_sRGB
+    second: {fileID: 2800000, guid: be510f5a4b73a4bb1b6b14f9594d3b80, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SlimMega_Opacity_Raw
+    second: {fileID: 2800000, guid: 5f00b2727db354e4898f1416a6ca55f6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Standard_Base_color_sRGB
+    second: {fileID: 2800000, guid: a046b2f8a47874705b8e09a8928a3111, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Standard_Normal_OpenGL_Raw
+    second: {fileID: 2800000, guid: 144dac3c6745a4373b2ebf12bbcf5ec1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Standard_Roughness_Raw
+    second: {fileID: 2800000, guid: d27e09cf14c604b218e4b694a049b3ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SugarFree_Base_color_sRGB
+    second: {fileID: 2800000, guid: bc37f16c23a7b4b0486d21424e2a31f2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Summer_Base_color_sRGB
+    second: {fileID: 2800000, guid: f4f5fdbffe9f74cb3bfc269744b4725c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Yellow_Base_color_sRGB
+    second: {fileID: 2800000, guid: 19128feb25eb64bf9b2926299bf285f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Zero_Base_color_sRGB
+    second: {fileID: 2800000, guid: 1413ad0aab8284106968309432cc8a66, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

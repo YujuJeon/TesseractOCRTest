@@ -1,0 +1,265 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8310296635942459279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8310296635942459278}
+  m_Layer: 0
+  m_Name: walmart space
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8310296635942459278
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8310296635942459279}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 79.3, y: -0, z: 49.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8421348396515108422}
+  - {fileID: 8421348396607110046}
+  - {fileID: 8421348396643064303}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!1001 &8310296636706946564
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8310296635942459278}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6813a8900dba749ada64ed6c61dd8fda,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6813a8900dba749ada64ed6c61dd8fda,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.712952
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6813a8900dba749ada64ed6c61dd8fda,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.44902357
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6813a8900dba749ada64ed6c61dd8fda,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 64.736885
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6813a8900dba749ada64ed6c61dd8fda,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6813a8900dba749ada64ed6c61dd8fda,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6813a8900dba749ada64ed6c61dd8fda,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6813a8900dba749ada64ed6c61dd8fda,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6813a8900dba749ada64ed6c61dd8fda,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6813a8900dba749ada64ed6c61dd8fda,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6813a8900dba749ada64ed6c61dd8fda,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6813a8900dba749ada64ed6c61dd8fda,
+        type: 3}
+      propertyPath: m_Name
+      value: Walmart_Redbull 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6813a8900dba749ada64ed6c61dd8fda,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6813a8900dba749ada64ed6c61dd8fda, type: 3}
+--- !u!4 &8421348396643064303 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6813a8900dba749ada64ed6c61dd8fda,
+    type: 3}
+  m_PrefabInstance: {fileID: 8310296636706946564}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8310296636742900853
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8310296635942459278}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1775bfa163c7d46ac82760f473fa9a2d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1775bfa163c7d46ac82760f473fa9a2d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1775bfa163c7d46ac82760f473fa9a2d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1775bfa163c7d46ac82760f473fa9a2d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1775bfa163c7d46ac82760f473fa9a2d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1775bfa163c7d46ac82760f473fa9a2d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1775bfa163c7d46ac82760f473fa9a2d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1775bfa163c7d46ac82760f473fa9a2d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1775bfa163c7d46ac82760f473fa9a2d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1775bfa163c7d46ac82760f473fa9a2d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1775bfa163c7d46ac82760f473fa9a2d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1775bfa163c7d46ac82760f473fa9a2d,
+        type: 3}
+      propertyPath: m_Name
+      value: Walmart_Structure 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1775bfa163c7d46ac82760f473fa9a2d, type: 3}
+--- !u!4 &8421348396607110046 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1775bfa163c7d46ac82760f473fa9a2d,
+    type: 3}
+  m_PrefabInstance: {fileID: 8310296636742900853}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8310296636801401261
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8310296635942459278}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: fd37227a89c044dc5825114a5b822817,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd37227a89c044dc5825114a5b822817,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd37227a89c044dc5825114a5b822817,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd37227a89c044dc5825114a5b822817,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd37227a89c044dc5825114a5b822817,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd37227a89c044dc5825114a5b822817,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd37227a89c044dc5825114a5b822817,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd37227a89c044dc5825114a5b822817,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd37227a89c044dc5825114a5b822817,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd37227a89c044dc5825114a5b822817,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd37227a89c044dc5825114a5b822817,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd37227a89c044dc5825114a5b822817,
+        type: 3}
+      propertyPath: m_Name
+      value: Walmart_Products
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd37227a89c044dc5825114a5b822817, type: 3}
+--- !u!4 &8421348396515108422 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fd37227a89c044dc5825114a5b822817,
+    type: 3}
+  m_PrefabInstance: {fileID: 8310296636801401261}
+  m_PrefabAsset: {fileID: 0}
