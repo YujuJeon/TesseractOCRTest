@@ -20,11 +20,13 @@ MonoBehaviour:
   - m_GUID: 6674168f3acb94320b4ac7a0890a229d
     m_Address: Assets/Prefabs/walmart space.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - environment
   - m_GUID: eac9e823638932147bc35b18902effdc
     m_Address: Assets/Textures
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - texture
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 7419ffc9856622d4ab892a3eeb490b75, type: 2}
   m_SchemaSet:

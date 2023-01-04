@@ -152,6 +152,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6770c00c6f3dd494bbb1784b8b990a75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  assetReference:
+    m_AssetGUID: 6674168f3acb94320b4ac7a0890a229d
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  assetLabelRef:
+    m_LabelString: texture
+  assetRefGameObj:
+    m_AssetGUID: 6674168f3acb94320b4ac7a0890a229d
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  assetRefTexture:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  assetRefAudioClip:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  spawnedGameObject: {fileID: 0}
 --- !u!4 &247726751
 Transform:
   m_ObjectHideFlags: 0
